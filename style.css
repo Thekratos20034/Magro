@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+main{
+    width: 1200px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner1{
+    height: 300px;
+    background: url("../Imagenes/Banner-Magro-S.A.jpg") 0 -48px;
+    background-size: cover;
+}
+.banner h2{
+    text-align: center;
+  font-size: 25px; 
+  color: aliceblue;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: #589507;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Contenido nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Contenido nav ul{
+    margin-top: 30px;
+}
+
+.Contenido nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Contenido nav ul li a{
+    text-decoration: none;
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+}
+
+#conteintemcarrusel{
+    height: 500px;
+    overflow: hidden;
+}
+
+#conteintemcarrusel2{
+    display: flex;
+    height: 450px;
+    width: 1000px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.itemcarrusel{
+    height: 100%;
+    position: relative;
+}
+
+.itemcarrusel img{
+    width: 1500px;
+    height: 300px;
+}
+
+.Tarjetacarrusel{
+    height: 100%;
+}
+
+.flechascarrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flechascarrusel img{
+    width: 35px;
+    height: 32px;
+    color: #1288ff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Mega{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.Mega .nexo{
+    display: flex;
+    width: 250px;
+    height: 415px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 5px 5px rgb(0, 0, 0,4);
+    overflow: hidden;
+}
+
+.Mega .nexo img{
+    width: 270px;
+    height: 225px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.nexo a{
+    text-decoration: none;
+    border: 5px solid #ccc;
+    background-color: #ccc;
+}
+
+.nexo{
+    display: flex;
+    width: 330px;
+    height: 480px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: salmon;
+    text-align: center;
+}
